@@ -102,32 +102,70 @@
 
 // creating a data type
 
-typedef struct
-{
-   string name;
-   int age;
-} person;
+// typedef struct
+// {
+//    string name;
+//    int age;
+// } person;
 
-int main(void)
-{
-   person people[2];
-   people[0].name = "David";
-   people[0].age = 24;
+// int main(void)
+// {
+//    person people[2];
+//    people[0].name = "David";
+//    people[0].age = 24;
 
-   people[1].name = "Melan";
-   people[1].age = 34;
+//    people[1].name = "Melan";
+//    people[1].age = 34;
 
-   string s = get_string("Name: ");
-   int people_length = sizeof(people) / sizeof(people[0]);
+//    string s = get_string("Name: ");
+//    int people_length = sizeof(people) / sizeof(people[0]);
 
-   for (int i = 0; i < people_length; i++)
-   {
-      if (strcasecmp(people[i].name, s) == 0)
-      {
-         printf("found: %i\n", people[i].age);
-         return 0;
-      }
-   }
-   printf("not found\n");
-   return 1;
-}
+//    for (int i = 0; i < people_length; i++)
+//    {
+//       if (strcasecmp(people[i].name, s) == 0)
+//       {
+//          printf("found: %i\n", people[i].age);
+//          return 0;
+//       }
+//    }
+//    printf("not found\n");
+//    return 1;
+// }
+
+// // sort an array
+// bubble sort
+
+// int main(void)
+// {
+//    int arr[] = {10, 50, 5, 30, 76, 100, 47, 88, 0, 67, 94, 500, 38, 22, 60, 55, 44, 99, 102};
+//    int arr_length = sizeof(arr) / sizeof(arr[0]);
+
+//    printf("Unsorted: ");
+//    for (int i = 0; i < arr_length; i++)
+//    {
+//       printf("%i,", arr[i]);
+//    }
+//    printf("\n");
+
+//    for (int i = 0; i < arr_length; i++)
+//    {
+//       for (int j = i + 1; j < arr_length; j++)
+//       {
+//          if (arr[i] > arr[j])
+//          {
+//             int small_int = arr[j]; // smallest integer
+//             int big_int = arr[i];   // bigger integer
+
+//             arr[i] = small_int; // shift smaller integer to index i
+//             arr[j] = big_int;   // shift bigger integer to index j
+//          }
+//       }
+//    }
+
+//    printf("Sorted:   ");
+//    for (int i = 0; i < arr_length; i++)
+//    {
+//       printf("%i,", arr[i]);
+//    }
+//    printf("\n");
+// }

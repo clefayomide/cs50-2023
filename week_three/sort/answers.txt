@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: it has the highest run time. Although selection sort and bubble sort are of O(N2), selection sort is proven to be more faster and efficient than bubble sort because it performs a smaller number of swaps compared to bubble sort
+
+sort2 uses: merge sort
+
+How do you know?: it has the lowest run time in all my test cases
+
+sort3 uses: selection sort
+
+How do you know?: it has the second lowest run time
