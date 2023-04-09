@@ -28,10 +28,9 @@ int main(void)
     {
         printf("Player 2 wins!\n");
     }
-    else 
+    else
     {
         printf("Tie!\n");
-
     }
 }
 
@@ -39,26 +38,26 @@ int compute_score(string word)
 {
     // TODO: Compute and return score for string
     int score = 0;
-    
+
     // get word length
     int string_length = strlen(word);
-    
+
     // get length of letters
     int letter_length = sizeof(LETTERS) / sizeof(LETTERS[0]);
 
     // loop through letters
     for (int i = 0; i < letter_length; i++)
-      {
+    {
         // loop through word
-        for(int j = 0; j < string_length; j++)
+        for (int j = 0; j < string_length; j++)
         {
             // checks if current index of word is same as current index of letters, OR, if current index of word is same as current index of letters in uppercase
-            if(word[j] == *LETTERS[i] || word[j] == toupper(*LETTERS[i]))
+            if (word[j] == *LETTERS[i] || word[j] == toupper(*LETTERS[i]))
             {
                 // if condition is met, increment score with the appropriate point for the word index
                 score = score + POINTS[i];
             }
         }
-      }
+    }
     return score;
 }

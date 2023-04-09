@@ -2,6 +2,7 @@
 #include <cs50.h>
 #include <string.h>
 #include <ctype.h>
+#include <stdlib.h>
 
 // functions
 // float get_regular();
@@ -168,4 +169,98 @@
 //       printf("%i,", arr[i]);
 //    }
 //    printf("\n");
+// }
+
+// pointer
+
+// int main (void)
+// {
+//     int number = 50;
+//     int *p = &number;
+
+//     int **q = &p;
+
+//     printf("%i\n", *p);
+//     printf("%p\n", q);
+// }
+
+// memory allocation
+
+// int main(void)
+// {
+//     string s = get_string("S: ");
+//     int length = strlen(s);
+
+//     string t = malloc(length + 1);
+
+//     for (int i = 0; i < length; i++)
+//     {
+//         t[i] = s[i];
+//     }
+
+//     printf("%s\n", t);
+
+//     free(t);
+// }
+
+// void swap(int *a, int *b);
+
+// int main(void)
+// {
+//     int a = 1;
+//     int b = 2;
+
+//     printf("a is: %i and b is: %i\n", a, b);
+//     swap(&a, &b);
+//     printf("a is: %i and b is: %i\n", a, b);
+// }
+
+// void swap(int *a, int *b)
+// {
+//     int initial_a_value = *a;
+//     *a = *b;
+//     *b = initial_a_value;
+//  }
+
+// void change(string *address);
+// int main(void)
+// {
+//     string greeting = "hello";
+//     printf("%s\n", greeting);
+//     change(&greeting);
+//     printf("%s\n", greeting);
+// }
+
+// void change(string *address)
+// {
+//     *address = "hello world";
+// }
+
+// recursion
+// int fact(int n);
+
+// int main(void)
+// {
+//     printf("%i\n", fact(5));
+// }
+
+// int fact(int n)
+// {
+//     if (n == 1)
+//         return 1;
+//     else
+//         return n * fact(n - 1);
+// }
+
+// read file
+
+// int main(void)
+// {
+//     FILE *file = fopen("board.txt", "r");
+//     string text;
+//     fgets(text, (sizeof(string) * 2), file);
+//     printf("%s\n", text);
+//     // printf("%s\n", text[0]);
+//     // fprintf(file, "hello people\n");
+//     // fclose(file);
 // }
