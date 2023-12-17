@@ -1,8 +1,12 @@
-#include <stdio.h>
-#include <cs50.h>
-#include <string.h>
-#include <ctype.h>
-#include <stdlib.h>
+// #include <stdio.h>
+// #include <cs50.h>
+// #include <string.h>
+// #include <ctype.h>
+// #include <stdlib.h>
+
+// int main(void){
+//     printf("hello People");
+// }
 
 // functions
 // float get_regular();
