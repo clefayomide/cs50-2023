@@ -181,3 +181,41 @@
 # writer.writerow({"name": name, "phone": phone})
 
 # file.close()
+
+# crash course
+# guest_lists = ["alex", "hunter", "beckham", "david"]
+
+# for guest in guest_lists:
+#     print(f"you are invited @{guest.title()}")
+
+# print(guest_lists[0])
+
+# del guest_lists[0]
+
+# guest_lists.insert(0, "ben")
+
+# for guest in guest_lists:
+#     print(f"you are invited @{guest.title()}")
+
+# food = ["rice"]
+# print(food)
+
+# food2 = food[:]
+# food2.append("beans")
+
+
+# print(food2)
+# print(food)
+# print(food == food2)
+
+# def print_siblings(**siblings):
+#     print(siblings)
+#     for sibling in siblings:
+#         print(siblings[sibling])
+
+
+# print_siblings(firstName="Alex", lastName="Hunter")
+
+# import arithmetic
+
+# print(arithmetic.add("2", "2"))
