@@ -1,0 +1,7 @@
+Average energy: 0.65906
+Average valence: 0.484443
+Average danceability: 0.71646
+
+Adding extra information, such as the number of times a song has been played and the mood it evokes while it is playing, might assist the computation become more reflective of the user base.
+
+
